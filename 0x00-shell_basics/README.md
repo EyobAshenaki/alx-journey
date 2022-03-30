@@ -2,3 +2,4 @@
 '1-listit' script in this directory prints the contents list of current directory
 '2-bring_me_home' script changes the working directory to the user's home directory
 '3-listfiles' script prints the contents of current directory in a long format
+'4-listmorefiles' script prints contents of working directory in the long file including hidden files
