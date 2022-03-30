@@ -12,3 +12,5 @@
 '11-lists' script lists all files in the current, the parent and '/boot' directory (in this order), in long format
 '12-file_type' script prints the type of the file '/tmp/iamafile'
 '13-symbolic_link' script creates a symbolic link to '/bin/ls' named '__ls__' in the working directory
+'14-copy_html' copies all the HTML files from current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or wee newer than the version in the parent of the working directory
+'14-copy_html' script copies all the HTML files from the current working directory to parent of the working directory, but only files that didn't exist or newer than the versions in the parent of the working directory
