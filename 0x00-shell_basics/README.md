@@ -11,3 +11,4 @@
 '10-back' script chages the working directory to the previous one
 '11-lists' script lists all files in the current, the parent and '/boot' directory (in this order), in long format
 '12-file_type' script prints the type of the file '/tmp/iamafile'
+'13-symbolic_link' script creates a symbolic link to '/bin/ls' named '__ls__' in the working directory
