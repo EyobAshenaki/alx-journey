@@ -14,3 +14,4 @@
 '13-symbolic_link' script creates a symbolic link to '/bin/ls' named '__ls__' in the working directory
 '14-copy_html' copies all the HTML files from current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or wee newer than the version in the parent of the working directory
 '14-copy_html' script copies all the HTML files from the current working directory to parent of the working directory, but only files that didn't exist or newer than the versions in the parent of the working directory
+'100-lets_move' script moves all files beginning with an uppercase to the directory /tmp/u
