@@ -14,3 +14,4 @@
 '100-change_owner_and_group' script changes the ownet to 'vincent' and the group owner to 'staff' for all the files and directories in the working directory
 '101-symbolic_link_permissions' script changes the owner and the group owner of '_hello' which is a symbolic link to 'vincent' and 'staff' repectively
 '102-if_only' script changes the owner of the file 'hello' to 'betty' only if it is owned by the user 'guillaume'
+'103-Star_Wars' script will play the StarWarsIV episode in the terminal
