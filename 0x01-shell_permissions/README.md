@@ -7,3 +7,4 @@
 '7-everybody' script adds execution permission to the owner, the group owner and the other users, to the file 'hello'
 '8-James_Bond' script sets owner and group: no permission at all and other users: all the permissions to the file 'hello'
 '9-John_Doe' script sets the mode of the file 'hello' to this: '-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello'
+'10-mirror_permissions' script sets the mode of the file 'hello' the same as 'olleh's' mode
