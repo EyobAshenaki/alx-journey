@@ -9,3 +9,4 @@
 '9-John_Doe' script sets the mode of the file 'hello' to this: '-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello'
 '10-mirror_permissions' script sets the mode of the file 'hello' the same as 'olleh's' mode
 '11-directories_permissions' script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users without affecting regular files
+'12-directory_permissions' script creates a directory called 'my_dir' with permiddions 751 in the working directory
