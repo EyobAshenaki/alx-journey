@@ -12,3 +12,5 @@
 '' script counts the number of directories and sub-directories in the current directory excluding the current and parent directories and including hidden directories.
 '12-newest_files' script displays the 10 newest files in the current directory. It has one file per line and is sorted from newest to the oldest
 '13-unique' script takes a list of words as input and prints only words that appear exactly once and words should be sorted
+'14-findthatword' script displays lines containing the pattern 'root' form the file '/etc/passwd'
+'14-findthatword' script displays lines containing the pattern 'root' frin the file '/etc/passwd'
