@@ -14,3 +14,4 @@
 '13-unique' script takes a list of words as input and prints only words that appear exactly once and words should be sorted
 '14-findthatword' script displays lines containing the pattern 'root' form the file '/etc/passwd'
 '14-findthatword' script displays lines containing the pattern 'root' frin the file '/etc/passwd'
+'15-countthatword' script displays the number of lines that contain the pattern 'bin' in the file '/etc/passwd'
