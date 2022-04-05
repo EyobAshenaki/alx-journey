@@ -16,3 +16,4 @@
 '14-findthatword' script displays lines containing the pattern 'root' frin the file '/etc/passwd'
 '15-countthatword' script displays the number of lines that contain the pattern 'bin' in the file '/etc/passwd'
 '16-whatsnext' script displays lines containing the pattern 'root' and 3 lines after them in the file '/etc/passwd'
+'17-hidethisword' script displays all the lines in the file '/etc/password' that do not contain the pattern 'bin'
