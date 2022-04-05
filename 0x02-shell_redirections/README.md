@@ -19,3 +19,4 @@
 '17-hidethisword' script displays all the lines in the file '/etc/password' that do not contain the pattern 'bin'
 '18-letteronly' script displays all lines of the file '/etc/ssh/sshd_config'
 '19-AZ' script replaces all characters 'A' and 'c' from input to 'Z' and 'e' respectively
+'20-hiago' script removes all letter 'c' and 'C' from input
