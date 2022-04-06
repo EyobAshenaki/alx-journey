@@ -22,3 +22,4 @@
 '20-hiago' script removes all letter 'c' and 'C' from input
 '21-reverse' script reverses its input
 '22-users_and_homes' script displays all users and their home directories, sorted by users based ob the '/etc/passwd' file
+'100-empty_casks' script finds all empty files and directories in th currewnt directory and ll cub-directories with requirements of: Only the names of the files and directories should be displayed (not the entire path), One file name per line, and You are not allowed to use basename, grep, egrep, fgrep or rgrep
