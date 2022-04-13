@@ -8,30 +8,31 @@
 
 int main(void)
 {
-int n = '0';
+    int n = '0';
 
-while (n <= '9')
-{
-int m = '0';
+    while (n < '9')
+    {
+        int m = n + 1;
 
-while (m <= '9')
-{
-if (m > n)
-{
-putchar(n);
-putchar(m);
-if (!(n == '8' && m == '9'))
-{
-putchar(',');
-putchar(' ');
-}
-}
-m++;
-}
-n++;
-}
+        while (m <= '9')
+        {
+            if (m != n)
+            {
+                putchar(n);
+                putchar(m);
+                if (n == '8' && m == '9')
+                    break;
+                // {
+                putchar(',');
+                putchar(' ');
+                // }
+            }
+            m++;
+        }
+        n++;
+    }
 
-putchar('\n');
+    putchar('\n');
 
-return (0);
+    return (0);
 }
