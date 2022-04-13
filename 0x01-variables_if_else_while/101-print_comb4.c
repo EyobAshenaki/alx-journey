@@ -8,41 +8,41 @@
 
 int main(void)
 {
-int n = '0';
+    int n = '0';
 
-while (n < '9')
-{
-int m = n + 1;
+    while (n < '9')
+    {
+        int m = n + 1;
 
-while (m < '9')
-{
-int o = m + 1;
+        while (m < '9')
+        {
+            int o = m + 1;
 
-if (m != n)
-{
-while (o <= '9')
-{
-if (m != o)
-{
-putchar(n);
-putchar(m);
-putchar(o);
+            if (m != n)
+            {
+                while (o <= '9')
+                {
+                    if (m != o)
+                    {
+                        putchar(n);
+                        putchar(m);
+                        putchar(o);
 
-if (n == '7' && m == '8' && o == '9')
-break;
+                        if (n == '7' && m == '8' && o == '9')
+                            break;
 
-putchar(',');
-putchar(' ');
-}
-o++;
-}
-}
-m++;
-}
-n++;
-}
+                        putchar(',');
+                        putchar(' ');
+                    }
+                    o++;
+                }
+            }
+            m++;
+        }
+        n++;
+    }
 
-putchar('\n');
+    putchar('\n');
 
-return (0);
+    return (0);
 }
