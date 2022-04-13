@@ -1,36 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
  *
- * Return: 0 when excution is done
- */
+ * Return: Always 0
+*/
 
 int main(void)
 {
-int n = 0;
+int p, q;
 
-while (n < 99)
+for (p = 0; p <= 98; p++)
 {
-int m = 0;
-
-while (m <= 99)
+for (q = p + 1; q <= 99; q++)
 {
-putchar((n / 10) + '0');
-putchar((n % 10) + '0');
+putchar((p / 10) + '0');
+putchar((p % 10) + '0');
 putchar(' ');
-putchar((m / 10) + '0');
-putchar((m % 10) + '0');
+putchar((q / 10) + '0');
+putchar((q % 10) + '0');
 
-if (n == 98 && m == 99)
+if (p == 98 && q == 99)
 continue;
 
 putchar(',');
 putchar(' ');
-
-m++;
 }
-n++;
 }
 
 putchar('\n');
