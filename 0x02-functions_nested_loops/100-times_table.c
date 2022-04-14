@@ -16,29 +16,29 @@ int row, col, prod;
 
 if (n > 15 || n < 0)
 return;
-
 for (col = 0; col <= n; col++)
 {
 for (row = 0; row <= n; row++)
 {
 prod = row * col;
-
-_putchar(' ');
 if (prod >= 10)
 {
 if (prod >= 100)
 {
+_putchar(' ');
 _putchar((prod / 100) + '0');
 _putchar(((prod % 100) / 10) + '0');
 }
 else
 {
 _putchar(' ');
+_putchar(' ');
 _putchar((prod / 10) + '0');
 }
 }
 else if (prod < 10 && row != 0)
 {
+_putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
