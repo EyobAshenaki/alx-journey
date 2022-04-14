@@ -3,12 +3,12 @@
 /**
  * main - entry point
  *
- * return - 0 on Success
+ * Return: 0 on Success
  */
 
 int main(void)
 {
-    print_alphabet();
+print_alphabet();
 
-    return (0);
+return (0);
 }
