@@ -7,8 +7,10 @@
  * @a: pointer to an array to be printed
  * @n: number of elements of array @a to be printed
  *
- * Description: Numbers must be separated by comma, followed by a space.
- * The numbers should be displayed in the same order as they are stored in the array.
+ * Description: Numbers must be separated by comma,
+ * followed by a space.
+ * The numbers should be displayed in the same order as
+ * they are stored in the array.
  *
  * Return void
  */
