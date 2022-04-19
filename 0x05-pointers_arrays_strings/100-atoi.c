@@ -20,7 +20,7 @@ int _atoi(char *s)
 {
 
 unsigned int n = 0;
-int i = 0, has_int = 0, sign = 0;
+int i = 0, has_int = 0, sign = 1;
 
 while (s[i] != '\0')
 {
