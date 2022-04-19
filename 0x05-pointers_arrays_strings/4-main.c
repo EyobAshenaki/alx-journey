@@ -7,9 +7,13 @@
  */
 int main(void)
 {
-    char *str;
+    char *str, *str1, *str2;
 
     str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    str1 = "Holberton!";
+    str2 = "";
     print_rev(str);
+    print_rev(str1);
+    print_rev(str2);
     return (0);
 }

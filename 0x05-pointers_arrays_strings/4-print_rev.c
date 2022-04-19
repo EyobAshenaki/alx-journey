@@ -10,18 +10,18 @@
 void print_rev(char *s)
 {
 
-int counter = 0, i;
+    int counter = 0, i;
 
-for (; *s != '\0'; s++)
-{
-counter++;
-}
+    for (; *s != '\0'; s++)
+    {
+        counter++;
+    }
 
-for (i = 0; i <= counter; i++)
-{
-_putchar(*(s - i));
-}
-_putchar('\n');
+    for (i = 0; i <= counter; i++)
+    {
+        _putchar(*(s - i));
+    }
+    _putchar('\n');
 
-return;
+    return;
 }
