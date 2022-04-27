@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * _strncat - a function that concatenates two strings.
+ * _strncpy - a function that copys the strings.
  * @dest: an input string
  * @src: an input string
  * @n: an input integer
  * Return: A pointer to the resulting string
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int srclen = 0, i = 0;
 	char *temp = dest, *start = src;
@@ -18,8 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 		src++;
 	}
 
-	while (*dest)
-		dest++;
+	srclen++;
 
 	if (n > srclen)
 		n = srclen;
@@ -29,6 +28,5 @@ char *_strncat(char *dest, char *src, int n)
 	for (; i < n; i++)
 		*dest++ = *src++;
 
-	*dest = '\0';
 	return (temp);
 }
